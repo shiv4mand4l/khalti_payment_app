@@ -11,7 +11,12 @@ class _KhaltiPaymentScreenState extends State<KhaltiPaymentScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Khalti Payment App')),
+      appBar: AppBar(
+        title: Text('Khalti Payment App'),
+        centerTitle: true,
+        backgroundColor: Colors.teal[300],
+      ),
+
       body: Column(children: [
       
     ],),
